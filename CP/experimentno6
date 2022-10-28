@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int a = 12, b = 25, num = 212;
+    printf("\n AND Operator Output = %d", a&b);
+    printf("\n OR Operator Output = %d", a|b);
+    printf("\n XOR Operator Output = %d", a^b);
+    printf("\n Complement Operator Output = %d", ~35);
+    printf("\n Complement Operator Output = %d", ~-12);
+    printf("\n Right Shift Operator Output = %d", 212>>2);
+    printf("\n Left Shift Operator Output = %d", 212<<1);
+    return 0;
+}
